@@ -11,6 +11,7 @@ import DetailForPage from './pages/detail/forecast'
 import DetailPubPage from './pages/detail/publish'
 Vue.use(VueRouter)
 Vue.use(VueResource)
+// 配置相关路由
 let router = new VueRouter({
 	mode: 'history',
 	routes: [
